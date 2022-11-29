@@ -4,9 +4,18 @@ Session
 The `Session` class used for our projects. It stores sessions in tha database using the `AbstractDatabase` class.
 
 
+Installation
+------------
+
+```bash
+composer require deloachtech/session
+```
+
+
+
 Setup
 -----
-Create tha table and columns.
+Create tha database table and columns.
 
 ```mysql
 create table sessions
