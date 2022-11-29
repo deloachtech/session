@@ -1,0 +1,15 @@
+{
+  "name": "deloachtech/session",
+  "description": "The Session class used for our projects. It stores sessions in tha database using the AbstractDatabase class.",
+  "type": "library",
+  "license": "proprietary",
+  "require": {
+    "php": ">=7.3.0",
+    "deloachtech/database": "1.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "DeLoachTech\\Session\\": "src/"
+    }
+  }
+}
