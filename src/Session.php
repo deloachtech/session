@@ -25,7 +25,7 @@ use SessionHandlerInterface;
 
 class Session implements SessionHandlerInterface
 {
-    private $db;
+    protected $db;
 
 
     public function __construct(AbstractDatabase $db, string $name = 'PHPSESSION')
